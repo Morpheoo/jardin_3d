@@ -1,0 +1,22 @@
+# Unreal: carpetas que el motor regenera
+unreal/Binaries/
+unreal/Intermediate/
+unreal/Saved/
+unreal/DerivedDataCache/
+unreal/.vs/
+unreal/*.sln
+
+# Pruebas del núcleo: salidas de cl.exe
+unreal/Tests/*.obj
+unreal/Tests/*.exe
+unreal/Tests/*.pdb
+
+# Respaldos y datos de depuración
+*.bak
+agua_*.bin
+
+# Unity: carpetas que el editor regenera
+unity/Library/
+unity/Temp/
+unity/Obj/
+unity/Logs/
